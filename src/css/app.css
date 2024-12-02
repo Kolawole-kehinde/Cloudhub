@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.wrapper {
+  @apply container mx-auto max-w-[1280px];
+}
+.text {
+  @apply font-medium text-base text-dark;
+}
+.textWhite {
+  @apply font-medium text-base text-white;
+}
+
+.btn {
+  @apply py-3 px-5 rounded-[2.438rem] bg-primary text-white
+}
